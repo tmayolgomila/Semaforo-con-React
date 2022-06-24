@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	const [selectLight, setSelectLight] = useState("");
+	const [selectLight, setSelectLight] = useState("green");
 	return (
 	<>
 	<div className="soporte"></div>
